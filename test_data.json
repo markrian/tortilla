@@ -13,6 +13,10 @@
       "method": "POST",
       "body": {"message": "Success!"}
     },
+    "/has_self": {
+      "method": "GET",
+      "body": {"self": "me!"}
+    },
     "/cash/money": {
       "method": "PUT",
       "body": {"message": "Success!"}
